@@ -6,7 +6,7 @@ style: black
 ---
 
 <!-- Cover -->
-<header class="masthead" style="backgound-image: url('{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}')">
+<header class="masthead" style="background-image: url('{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}')">
     <!-- <div class="overlay">
         <img src="{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}"/>
     </div> -->
