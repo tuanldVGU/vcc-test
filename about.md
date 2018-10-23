@@ -10,7 +10,7 @@ style: white-black
     <div class="container-fluid">
         <div class="row row-eq-height">
             <div class="col">
-                <img src="/images/Who We Are.jpg" id="image-cover">
+                <img src="{{page.baseurl}}/images/Who We Are.jpg" id="image-cover">
             </div>
             <div class="col bg-grey" style="padding: 7em 5em;">
                 <div class="site-heading">
@@ -30,7 +30,7 @@ style: white-black
     <div class="row">
         <div class="col-md-4">
             <div class="card md-4">
-                <img src="/images/Reliability.jpg" class="card-img-top">
+                <img src="{{page.baseurl}}/images/Reliability.jpg" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Linh Cao</h4>
                     <p class="card-text">Linh is the founder and President of VCC. She is responsible for the strategy als well as Business Development.</p>
@@ -39,7 +39,7 @@ style: white-black
         </div>
         <div class="col-md-4">
             <div class="card md-4">
-                <img src="/images/Quality.jpg" class="card-img-top">
+                <img src="{{page.baseurl}}/images/Quality.jpg" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Handsome Website Developer</h4>
                     <p class="card-text">The pillars of our work: experience in the industry paired with unbroken joy in new ideas and unconventional thinking. In this way he help us to meet challenges and plan for the future.</p>
@@ -48,7 +48,7 @@ style: white-black
         </div>
         <div class="col-md-4">
             <div class="card md-4">
-                <img src="/images/Up-to-date.jpg" class="card-img-top">
+                <img src="{{page.baseurl}}/images/Up-to-date.jpg" class="card-img-top">
                 <div class="card-body text-center">
                     <h4>Somebody</h4>
                     <p class="card-text">I don't know who so i put a template here.</p>
