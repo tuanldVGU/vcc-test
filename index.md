@@ -6,15 +6,15 @@ style: black
 ---
 
 <!-- Cover -->
-<header class="masthead">
-    <div class="overlay">
+<header class="masthead" style="backgound-image: url('{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}')">
+    <!-- <div class="overlay">
         <img src="{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}"/>
-    </div>
+    </div> -->
     <div class="container">
         <div class="col-lg-8 col-md-10 mr-auto">
             <div class="site-heading">
-                <h1 class="display-3">VCC - VGU Consulting Club</h1>
-                <p class="lead">VCC is a career-oriented club of the Vietnamese - German University. Its aim is to help students prepare for a consulting job and a successful business career by creating an environment of knowledge sharing, self-training, and networking. The taught skills are directly put into practice through the realization of projects required by companies. </p>
+                <h1 class="display-3" style="color: #fff;">VCC - VGU Consulting Club</h1>
+                <p class="lead" style="color: #fff;">VCC is a career-oriented club of the Vietnamese - German University. Its aim is to help students prepare for a consulting job and a successful business career by creating an environment of knowledge sharing, self-training, and networking. The taught skills are directly put into practice through the realization of projects required by companies. </p>
                 <a href="" class="btn btn-black">What we do</a>
             </div>
         </div>
