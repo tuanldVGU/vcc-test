@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "VCC | Home"
 date: 2018-10-20 14:37:43 +0700
 style: black
 ---
