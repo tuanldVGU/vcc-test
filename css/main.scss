@@ -86,12 +86,12 @@ footer{
     .overlay {
         width: 95%;
         height: 100%;
+        max-height: 100%;
         img{
             display: block;
             position: absolute;
             z-index: -1000;
             width: inherit;  height: inherit;
-            max-height: 70%;
             opacity: 0.4;
         }   
         

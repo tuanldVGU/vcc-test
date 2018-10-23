@@ -12,7 +12,7 @@ style: white-black
             <div class="col">
                 <img src="{{ '/images/Who We Are.jpg' | relative_url }}" id="image-cover">
             </div>
-            <div class="col bg-grey" style="padding: 7em 5em;">
+            <div class="col bg-grey" style="padding: 7em 2em;">
                 <div class="site-heading">
                         <h1 class="display-2">Who We Are</h1>
                         <p class="lead">With the support of our university and a team of 12 dedicated students we are able to reach new heights. Founded in 2017 we play a leading role in the Asian Junior Enterprise movement.</p>
@@ -68,7 +68,8 @@ style: white-black
             <p class="lead">The Vietnamese-German University VGU is a state-owned university built up appropriately to the German model of universities. VGU offers Bachelor, Master and PHD studies in technical, scientific and economic subjects. The education is undertaken by German Professors.</p>
             <a href="vgu.edu.vn" class="btn btn-black">Read More</a>
         </div>
-    </div>   
+    </div>
+    <img src="{{ '/images/VGU.jpg' | relative_url }}" style="width: 100%">    
 </div>
 
 <!-- Procedures -->
