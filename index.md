@@ -8,14 +8,14 @@ style: black
 <!-- Cover -->
 <header class="masthead">
     <div class="overlay">
-        <img src="{{page.baseurl}}/images/patrick-tomasso-unsplash.jpg"/>
+        <img src="{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}"/>
     </div>
     <div class="container">
         <div class="col-lg-8 col-md-10 mr-auto">
             <div class="site-heading">
-                    <h1 class="display-3">VCC - VGU Consulting Club</h1>
-                    <p class="lead">VCC is a career-oriented club of the Vietnamese - German University. Its aim is to help students prepare for a consulting job and a successful business career by creating an environment of knowledge sharing, self-training, and networking. The taught skills are directly put into practice through the realization of projects required by companies. </p>
-                    <a href="" class="btn btn-black">What we do</a>
+                <h1 class="display-3">VCC - VGU Consulting Club</h1>
+                <p class="lead">VCC is a career-oriented club of the Vietnamese - German University. Its aim is to help students prepare for a consulting job and a successful business career by creating an environment of knowledge sharing, self-training, and networking. The taught skills are directly put into practice through the realization of projects required by companies. </p>
+                <a href="" class="btn btn-black">What we do</a>
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@ style: black
     <div class="row">
         <div class="col-md-3">
             <div class="card md-3">
-                <img src="{{page.baseurl}}/images/Learning by Doing green.png" class="card-img-top-100">
+                <img src="{{ '/images/Learning by Doing green.png' | relative_url }}" class="card-img-top-100">
                 <div class="card-body text-center">
                     <h4>Learning by doing</h4>
                     <p class="card-text">“Knowledge is of no value unless you put it into practice”</p>
@@ -55,7 +55,7 @@ style: black
         </div>
         <div class="col-md-3">
             <div class="card md-3">
-                <img src="{{page.baseurl}}/images/Career Leverage green.png" class="card-img-top-100">
+                <img src="{{ '/images/Career Leverage green.png' | relative_url }}" class="card-img-top-100">
                 <div class="card-body text-center">
                     <h4>Career Leverage</h4>
                     <p class="card-text">“...”</p>
@@ -64,7 +64,7 @@ style: black
         </div>
         <div class="col-md-3">
             <div class="card md-3">
-                <img src="{{page.baseurl}}/images/Networking green.png" class="card-img-top-100">
+                <img src="{{ '/images/Networking green.png' | relative_url }}" class="card-img-top-100">
                 <div class="card-body text-center">
                     <h4>Strong Networking</h4>
                     <p class="card-text">“Be open-minded and help each other grow; we go further as we go together”</p>
@@ -73,7 +73,7 @@ style: black
         </div>
         <div class="col-md-3">
             <div class="card md-3">
-                <img src="{{page.baseurl}}/images/Professionalism green.png" class="card-img-top-100">
+                <img src="{{ '/images/Professionalism green.png' | relative_url }}" class="card-img-top-100">
                 <div class="card-body text-center">
                     <h4>Professionalism</h4>
                     <p class="card-text">“Be prepared for the real world!”</p>
@@ -90,7 +90,7 @@ style: black
 <div class="row spacing">
     <div class="col-md-6">
         <div class="card md-6">
-            <img src="{{page.baseurl}}/images/Link Companies.jpg" class="card-img-top">
+            <img src="{{ '/images/Link Companies.jpg' | relative_url }}" class="card-img-top">
             <div class="card-body bg-grey">
                 <h4>Companies</h4>
                 <p class="card-text">We advise you on various entrepreneurial issues of companies. Give us a new challenge - our team will find a solution to your problem. It would be an honor to welcome you as our client.</p>
@@ -100,7 +100,7 @@ style: black
     </div>
     <div class="col-md-6">
         <div class="card md-6">
-            <img src="{{page.baseurl}}/images/Link Students.jpg" class="card-img-top">
+            <img src="{{ '/images/Link Students.jpg' | relative_url }}" class="card-img-top">
             <div class="card-body bg-grey">
                 <h4>Students</h4>
                 <p class="card-text">We want you: VCC membership is an incredibly exciting time. <br>

@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-2">
             <div class="container text-center">
-                <img src="{{page.baseurl}}/images/logo-vcc.jpg" class="logo">
+                <img src="{{ '/images/logo-vcc.jpg' | relative_url }}" class="logo">
             </div>
         </div>
         <div class="col-md-3">
@@ -13,9 +13,9 @@
         <div class="col-md-2">
             <h5>Resources</h5>
             <ul class="list-unstyled text-small">
-                <li><a href="{{page.baseurl}}/legalnote">Imprint</a></li>
-                <li><a href="{{page.baseurl}}/privacy">Privacy Policy</a></li>
-                <li><a href="{{page.baseurl}}/cookie">Cookie Policy</a></li>
+                <li><a href="{{ '/legalnote' | relative_url }}">Imprint</a></li>
+                <li><a href="{{ '/privacy' | relative_url }}">Privacy Policy</a></li>
+                <li><a href="{{ '/cookie' | relative_url }}">Cookie Policy</a></li>
             </ul>
         </div>
         <div class="col-md-2">
