@@ -6,8 +6,15 @@ style: black
 ---
 
 <!-- Cover -->
+<<<<<<< HEAD
 <header class="masthead" style="background-image: url('{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}'); ">
     <div class="overlay"></div> 
+=======
+<header class="masthead" style="background-image: url('{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}')">
+    <!-- <div class="overlay">
+        <img src="{{ '/images/patrick-tomasso-unsplash.jpg' | relative_url }}"/>
+    </div> -->
+>>>>>>> ad67cd218990a93bd46152fb428a9ccc0188013b
     <div class="container">
         <div class="col-lg-8 col-md-10 mr-auto">
             <div class="site-heading">
