@@ -10,7 +10,7 @@ style: black
     <div class="overlay"></div> 
     <div class="container">
         <div class="col-lg-8 col-md-10 mr-auto">
-            <div class="site-heading">
+            <div class="site-heading" style="padding-top: 7em;">
                 <h1 class="display-3">VCC - VGU Consulting Club</h1>
                 <p class="lead">VCC is a career-oriented club of the Vietnamese - German University. Its aim is to help students prepare for a consulting job and a successful business career by creating an environment of knowledge sharing, self-training, and networking. The taught skills are directly put into practice through the realization of projects required by companies. </p>
                 <a href="" class="btn btn-black">What we do</a>
@@ -80,12 +80,10 @@ style: black
             
         </div>
     </div>
-
-
 </div>
 
 <!-- Companies and students -->
-<div class="row spacing">
+<div class="row spacing row-eq-height">
     <div class="col-md-6">
         <div class="card md-6">
             <img src="{{ '/images/Link Companies.jpg' | relative_url }}" class="card-img-top">
