@@ -31,7 +31,7 @@ permalink: /:title/
 sass:
   sass_dir: css
   style: compressed
-plugins:
+plugins_dir:
   - jekyll-feed
   - jekyll-assets
 

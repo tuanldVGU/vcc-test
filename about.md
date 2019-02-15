@@ -62,13 +62,14 @@ style: white-black
 <div class="container bg-grey spacing">
     <div class="row">
         <div class="col-lg-6">
-            <h1 class="display-3">The Vietnamese German University</h1>
+            <h1 class="display-3" style="text-align: right">The Vietnamese German University</h1>
         </div>
-        <div class="col-lg-6" style="padding-right: 10em;">
+        <div class="col-lg-6 pt-3" style="padding-right: 4em; ">
             <p class="lead">The Vietnamese-German University VGU is a state-owned university built up appropriately to the German model of universities. VGU offers Bachelor, Master and PHD studies in technical, scientific and economic subjects. The education is undertaken by German Professors.</p>
             <a href="vgu.edu.vn" class="btn btn-black">Read More</a>
         </div>
     </div>
+    <br>
     <img src="{{ '/images/VGU.jpg' | relative_url }}" style="width: 100%">    
 </div>
 
