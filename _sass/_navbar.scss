@@ -1,0 +1,36 @@
+.nav-active {
+  background-color: rgba(255,255,255,.8);
+  .nav-item {
+      a{
+          color: #000;
+          &:hover{
+              border-bottom: 3px solid #000; 
+          }
+      }
+  }
+  .nav-brand {
+          color: #000;
+  }
+}
+
+.navbar {
+  z-index: 1030;
+  .nav-item {
+      padding: 1em 1em;
+      a {
+          text-decoration: none;
+          &:hover{
+              text-decoration: none;
+          }
+      }
+  }
+  .nav-brand {
+      text-decoration: none;
+      &:hover{
+          text-decoration: none;
+      }
+  }
+  .logo {
+      width: 50px; height: 50px;
+  }
+}

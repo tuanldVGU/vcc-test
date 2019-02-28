@@ -267,6 +267,7 @@ DEPENDENCIES
   github-pages
   jekyll-assets (~> 2.2, >= 2.2.8)
   jekyll-feed (~> 0.6)
+  jekyll-sass-converter
   sprockets (>= 3.7.2)
   tzinfo-data
 

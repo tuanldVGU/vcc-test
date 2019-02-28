@@ -1,0 +1,78 @@
+$colors: (
+    card-grey: #4e5056
+);
+
+@function color($color-name){
+    @return map-get($colors,$color-name);
+}
+
+.bg-grey{
+  background-color: rgba(0,0,0,.2);
+}
+
+.bg-card-grey {
+  background-color: color(card-grey); 
+  h4,p{
+      color: #fff;
+  }
+}
+
+.black {
+  .nav-item {
+      a{
+          color: #000;
+          &:hover{
+              border-bottom: 3px solid #000; 
+          }
+      }
+  }
+  .nav-brand {
+          color: #000;
+  }
+}
+
+.white-black {
+  .nav-item {
+      a{
+          color: #fff;
+          &:hover{
+              border-bottom: 3px solid #fff; 
+          }
+      }
+  }
+  .nav-brand {
+          color: #000;
+  }
+}
+
+.black-white {
+  .nav-item {
+      a{
+          color: #000;
+          &:hover{
+              border-bottom: 3px solid #000; 
+          }
+      }
+  }
+  .nav-brand {
+          color: #fff;
+  }
+}
+
+.btn-black{
+  background: #000;
+  color: #fff;
+  &:hover{
+    color:#000;
+    background: #fff;
+  }
+}
+
+.btn-white{
+  background: #fff;
+  color: #000;
+  &:hover{
+    color:#fff;
+    background: #000;
+  }
+}
